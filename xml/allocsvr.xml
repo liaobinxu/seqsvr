@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+ <!--sudo apt install libxml2-utils; xmllint &#45;&#45;noout &#45;&#45;schema ../schema.xsd phxbinlogsvr.xml -->
+<phxrpc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="./schema.xsd">
+    <package>allocsvr</package>
+    <message name="SeqReq">
+        <field type="uint32" name="uid">1</field>
+        <field type="uint32" name="router_ver">2</field>
+    </message>
+    <message name="SeqResp">
+        <field type="uint64" name="seq">1</field>
+        <field type="bytes" name="routers">2</field>
+    </message>
+    <imports>
+        <import>google/protobuf/wrappers.proto</import>
+        <import>google/protobuf/empty.proto</import>
+        <import>phxrpc/rpc/phxrpc.proto</import>
+    </imports>
+    <service name="phxalloc">
+        <rpc name="GetSeq" paramter="SeqReq" returns="SeqResp">
+            <cmdID>1</cmdID>
+            <optString>u:r:</optString>
+            <usage>-u &lt;user&gt; -r &lt;has_router&gt;</usage>
+        </rpc>
+    </service>
+</phxrpc>

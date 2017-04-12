@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package allocsvr;
+
+message SeqReq
+{
+    uint32 uid = 1;
+    uint32 router_ver = 2;
+};
+
+message SeqResp
+{
+    uint64 seq = 1;
+    bytes routers = 2;
+};
+
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/empty.proto";
+import "phxrpc/rpc/phxrpc.proto";
+
+service allocsvr
+{
+    rpc GetSeq( SeqReq ) returns( SeqResp ) {
+        option( phxrpc.CmdID ) = 1;
+        option( phxrpc.OptString ) = "u:r:";
+        option( phxrpc.Usage ) = "-u <user> -r <has_router>";
+    }
+
+}
+

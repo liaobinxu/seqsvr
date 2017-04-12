@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+ <!--sudo apt install libxml2-utils; xmllint &#45;&#45;noout &#45;&#45;schema ../schema.xsd phxbinlogsvr.xml -->
+<phxrpc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="./schema.xsd">
+    <package>seqsvr</package>
+    <message name="RouterInfo">
+        <field type="uint32" name="sect_id">1</field>
+        <!-- 标识allocsvr的ip和port -->
+        <field type="string" name="alloc_ip">2</field>
+        <field type="uint32" name="alloc_port">3</field>
+
+        <!-- 生效时间(秒) -->
+        <field type="uint32" name="inure">4</field>
+        <!--
+       租约失效：AllocSvr N秒内无法从StoreSvr读取加载配置时，AllocSvr停止服务
+       租约生效：AllocSvr读取到新的加载配置后，立即卸载需要卸载的号段，需要加载的新号段等待N秒后提供服务
+       -->
+        <field type="uint32" name="n">5</field>
+    </message>
+
+    <message name="RouterList">
+        <field type="uint32" name="router_ver">1</field>
+        <field type="RouterInfo" repeated="true" name="routers">2</field>
+    </message>
+    <imports>
+        <import>google/protobuf/wrappers.proto</import>
+    </imports>
+</phxrpc>

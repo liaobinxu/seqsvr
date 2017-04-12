@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package storesvr;
+
+message SectionInfo
+{
+    uint32 sect_id = 1;
+    uint64 max_seq = 2;
+};
+
+message SectionList
+{
+    repeated SectionInfo sections = 1;
+};
+
+import "google/protobuf/wrappers.proto";
+

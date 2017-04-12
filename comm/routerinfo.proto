@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package seqsvr;
+
+message RouterInfo
+{
+    uint32 sect_id = 1;
+    string alloc_ip = 2;
+    uint32 alloc_port = 3;
+    uint32 inure = 4;
+    uint32 n = 5;
+};
+
+message RouterList
+{
+    uint32 router_ver = 1;
+    repeated RouterInfo routers = 2;
+};
+
+import "google/protobuf/wrappers.proto";
+

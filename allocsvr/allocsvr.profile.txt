@@ -1,0 +1,26 @@
+Total: 5 samples
+Stacks:
+
+1        (0000000000485180) ??:0:_init
+         (0000000000553224) ??:0:phxrpc::HshaServerIO::HandlerAcceptedFd
+         (000000000055c8f1) ??:0:phxrpc::UThreadEpollScheduler::Run
+         (0000000000553df4) ??:0:phxrpc::HshaServerIO::RunForever
+         (00007fa852fdfc7f) ??:0:std::this_thread::__sleep_for
+         (00007fa8532b0709) ??:0:start_thread
+         (00007fa85274582c) /build/glibc-Qz8a69/glibc-2.23/misc/../sysdeps/unix/sysv/linux/x86_64/clone.S:109:__clone
+
+4        (00007fa852745e23) /build/glibc-Qz8a69/glibc-2.23/misc/../sysdeps/unix/syscall-template.S:84:__epoll_wait_nocancel
+         (000000000055c845) ??:0:phxrpc::UThreadEpollScheduler::Run
+         (0000000000553df4) ??:0:phxrpc::HshaServerIO::RunForever
+         (00007fa852fdfc7f) ??:0:std::this_thread::__sleep_for
+         (00007fa8532b0709) ??:0:start_thread
+         (00007fa85274582c) /build/glibc-Qz8a69/glibc-2.23/misc/../sysdeps/unix/sysv/linux/x86_64/clone.S:109:__clone
+
+       4  80.0%  80.0%        4  80.0% __epoll_wait_nocancel
+       1  20.0% 100.0%        1  20.0% _init
+       0   0.0% 100.0%        5 100.0% __clone
+       0   0.0% 100.0%        1  20.0% phxrpc::HshaServerIO::HandlerAcceptedFd
+       0   0.0% 100.0%        5 100.0% phxrpc::HshaServerIO::RunForever
+       0   0.0% 100.0%        5 100.0% phxrpc::UThreadEpollScheduler::Run
+       0   0.0% 100.0%        5 100.0% start_thread
+       0   0.0% 100.0%        5 100.0% std::this_thread::__sleep_for

@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Project" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\install\;CMake Files\..\..\..\install\baserpc\;CMake Files\..\..\..\install\baserpc\build\;CMake Files\comm\;CMake Files\allocsvr\;CMake Files\storesvr\;CMake Files\allocsvr_tests\;CMake Files\comm_tests\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/data/workspace/c++/seqsvr" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/data/workspace/c++/seqsvr" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/data/workspace/c++/seqsvr" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="seqsvr">
+         <Option output="/data/workspace/c++/seqsvr/seqsvr" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 seqsvr" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="seqsvr/fast">
+         <Option output="/data/workspace/c++/seqsvr/seqsvr" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 seqsvr/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="routerinfo">
+         <Option output="/data/workspace/c++/seqsvr/comm/librouterinfo.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/comm" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/comm/Makefile&quot;  VERBOSE=1 routerinfo" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/comm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/comm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/comm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="routerinfo/fast">
+         <Option output="/data/workspace/c++/seqsvr/comm/librouterinfo.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/comm" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/comm/Makefile&quot;  VERBOSE=1 routerinfo/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/comm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/comm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/comm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="allocsvr_service">
+         <Option output="/data/workspace/c++/seqsvr/allocsvr/liballocsvr_service.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/allocsvr" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 allocsvr_service" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="allocsvr_service/fast">
+         <Option output="/data/workspace/c++/seqsvr/allocsvr/liballocsvr_service.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/allocsvr" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 allocsvr_service/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="allocsvr_main">
+         <Option output="/data/workspace/c++/seqsvr/allocsvr/allocsvr_main" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/allocsvr" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 allocsvr_main" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="allocsvr_main/fast">
+         <Option output="/data/workspace/c++/seqsvr/allocsvr/allocsvr_main" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/allocsvr" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 allocsvr_main/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="allocsvr_client">
+         <Option output="/data/workspace/c++/seqsvr/allocsvr/liballocsvr_client.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/allocsvr" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 allocsvr_client" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="allocsvr_client/fast">
+         <Option output="/data/workspace/c++/seqsvr/allocsvr/liballocsvr_client.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/allocsvr" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 allocsvr_client/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="allocsvr_tool_main">
+         <Option output="/data/workspace/c++/seqsvr/allocsvr/allocsvr_tool_main" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/allocsvr" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 allocsvr_tool_main" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="allocsvr_tool_main/fast">
+         <Option output="/data/workspace/c++/seqsvr/allocsvr/allocsvr_tool_main" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/allocsvr" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 allocsvr_tool_main/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="storesvr_test">
+         <Option output="/data/workspace/c++/seqsvr/storesvr/libstoresvr_test.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/storesvr" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 storesvr_test" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="storesvr_test/fast">
+         <Option output="/data/workspace/c++/seqsvr/storesvr/libstoresvr_test.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/storesvr" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 storesvr_test/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="storesvr_main">
+         <Option output="/data/workspace/c++/seqsvr/storesvr/storesvr_main" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/storesvr" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 storesvr_main" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="storesvr_main/fast">
+         <Option output="/data/workspace/c++/seqsvr/storesvr/storesvr_main" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/storesvr" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 storesvr_main/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="storesvr_client">
+         <Option output="/data/workspace/c++/seqsvr/storesvr/libstoresvr_client.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/storesvr" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 storesvr_client" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="storesvr_client/fast">
+         <Option output="/data/workspace/c++/seqsvr/storesvr/libstoresvr_client.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/storesvr" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 storesvr_client/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="storesvr_tool_main">
+         <Option output="/data/workspace/c++/seqsvr/storesvr/storesvr_tool_main" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/storesvr" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 storesvr_tool_main" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="storesvr_tool_main/fast">
+         <Option output="/data/workspace/c++/seqsvr/storesvr/storesvr_tool_main" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/storesvr" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 storesvr_tool_main/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/storesvr/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="allocSvrTest">
+         <Option output="/data/workspace/c++/seqsvr/allocsvr_tests/allocSvrTest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/allocsvr_tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr_tests/Makefile&quot;  VERBOSE=1 allocSvrTest" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr_tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr_tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="allocSvrTest/fast">
+         <Option output="/data/workspace/c++/seqsvr/allocsvr_tests/allocSvrTest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/allocsvr_tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr_tests/Makefile&quot;  VERBOSE=1 allocSvrTest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr_tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/allocsvr_tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="commonTest">
+         <Option output="/data/workspace/c++/seqsvr/comm_tests/commonTest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/comm_tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/comm_tests/Makefile&quot;  VERBOSE=1 commonTest" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/comm_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/comm_tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/comm_tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="commonTest/fast">
+         <Option output="/data/workspace/c++/seqsvr/comm_tests/commonTest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/workspace/c++/seqsvr/comm_tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DWITH_GPERFTOOLS" />
+            <Add directory="/data/install/baserpc/build/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/comm_tests/Makefile&quot;  VERBOSE=1 commonTest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/comm_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/comm_tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/workspace/c++/seqsvr/comm_tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/data/workspace/c++/seqsvr/allocsvr_tests/alloc_client_test.cpp">
+         <Option target="allocSvrTest"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/allocsvr_tests/allocsvr_test_main.cpp">
+         <Option target="allocSvrTest"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/allocsvr_tests/sect_seq_test.cpp">
+         <Option target="allocSvrTest"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/comm/router_list_diff.cpp">
+         <Option target="routerinfo"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/comm/router_list_diff.h">
+         <Option target="routerinfo"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/comm/routerinfo_util.cpp">
+         <Option target="routerinfo"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/comm/routerinfo_util.h">
+         <Option target="routerinfo"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/comm_tests/backward.cpp">
+         <Option target="commonTest"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/comm_tests/backward.hpp">
+         <Option target="commonTest"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/comm_tests/comm_test_main.cpp">
+         <Option target="commonTest"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/comm_tests/macros.h">
+         <Option target="commonTest"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/comm_tests/rand_util.cpp">
+         <Option target="commonTest"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/comm_tests/rand_util.h">
+         <Option target="commonTest"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/comm_tests/routerinfo_util_test.cpp">
+         <Option target="commonTest"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/comm_tests/routerlist_diff_test.cpp">
+         <Option target="commonTest"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/main.cpp">
+         <Option target="seqsvr"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/storesvr/backward.cpp">
+         <Option target="storesvr_main"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/storesvr/backward.hpp">
+         <Option target="storesvr_main"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/storesvr/store_bin_util.cpp">
+         <Option target="storesvr_main"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/storesvr/store_bin_util.h">
+         <Option target="storesvr_main"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/storesvr/storesvr_main.cpp">
+         <Option target="storesvr_test"/>
+         <Option target="storesvr_main"/>
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/../../../install/baserpc/build/baserpc-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\install\baserpc\build\" />
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/comm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\comm\" />
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/allocsvr/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\allocsvr\" />
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/storesvr/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\storesvr\" />
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/allocsvr_tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\allocsvr_tests\" />
+      </Unit>
+      <Unit filename="/data/workspace/c++/seqsvr/comm_tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\comm_tests\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
